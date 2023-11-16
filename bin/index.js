@@ -14,8 +14,6 @@ if (args[2] === 'migrations') {
     data.pop();
     
     const name = data.join("_");
-    
-    
 
     switch (operation) {
         case 'create':
